@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+
+}
+.header {
+    background-color: rg;
+
+    display: flex;
+    align-items: center;
+    box-shadow: 2px 2px 2px lightgray;
+    justify-content: space-between
+    
+
+}
+
+.header .logo h1{
+    padding-left: 50px;
+    font-family: 'Whisper', cursive;
+    /* text-shadow: 1px 1px 8px gray; */
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+
+.header .navbar ul li{
+    display: inline-block;   
+}
+.header .navbar ul li a{
+    font-family: 'Source Code Pro', monospace;
+    text-decoration: none;
+    padding-left: 15px;
+}
+
+#kimlik3{
+    padding-right: 50px;
+}
+
+
+.header .navbar ul li a:hover {
+    text-shadow: 2px 2px 5px rgb(155, 152, 152);
+    font-size: larger
+}
+
+.body{
+    
+    height: 100vh;
+    background: linear-gradient(110deg, #e67ee0 50%, #ffed4b 60%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.baslık{
+    font-size: 35px;
+    font-family: 'Whisper', cursive;
+}
+
+#ked{
+    width: 50px;    
+}
+
+.ked{
+    position: absolute;
+    z-index: -1;
+    padding-top: 5px;
+}
+footer{
+    background-color: rgb(228, 93, 76);
+    height: 50px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer img{
+    width: 55px;
+}
